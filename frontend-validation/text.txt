@@ -1,0 +1,19 @@
+"users": 
+    id
+    name
+
+"posts": 
+    id
+    title
+    desc
+    userId  --> users.id
+    rating 
+
+"comments": 
+    id
+    text
+    userId --> users.id
+    rating
+    date
+    time
+    postId --> posts.id

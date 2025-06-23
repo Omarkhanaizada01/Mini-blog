@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Иван Иванов",
+      "email": "ivan@example.com",
+      "nickname": "ivan123",
+      "password": "Ivan123!",
+      "confirmPassword": "Ivan123!",
+      "city": "Шымкент",
+      "gender": "Мужской",
+      "acceptTerms": true,
+      "subscribe": true,
+      "avatar": "/images/avatar1.png"
+    },
+    {
+      "id": 2,
+      "name": "Мария Смирнова",
+      "email": "maria@example.com",
+      "nickname": "maria_s",
+      "password": "Maria2024!",
+      "confirmPassword": "Maria2024!",
+      "city": "Астана",
+      "gender": "Женский",
+      "acceptTerms": true,
+      "subscribe": false,
+      "avatar": "/images/avatar2.png"
+    },
+    {
+      "id": 3,
+      "name": "Дмитрий Кузнецов",
+      "email": "dmitry@example.com",
+      "nickname": "dima_k",
+      "password": "Dima2024@",
+      "confirmPassword": "Dima2024@",
+      "city": "Шымкент",
+      "gender": "Мужской",
+      "acceptTerms": true,
+      "subscribe": true,
+      "avatar": "/images/avatar3.png"
+    },
+    {
+      "id": 4,
+      "name": "Анна Петрова",
+      "email": "anna@example.com",
+      "nickname": "anna_pet",
+      "password": "Anna2024#",
+      "confirmPassword": "Anna2024#",
+      "city": "Алматы",
+      "gender": "Женский",
+      "acceptTerms": true,
+      "subscribe": true,
+      "avatar": "/images/avatar4.png"
+    },
+    {
+      "id": 15,
+      "name": "Aizada",
+      "email": "aizada.omarhan@gmail.com",
+      "nickname": "aizada.01",
+      "password": "Altynaiaizada",
+      "confirmPassword": "Altynaiaizada",
+      "city": "Алматы",
+      "gender": "Женский",
+      "acceptTerms": true,
+      "subscribe": true,
+      "avatar": "/images/default-avatar.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "id": 2,
+      "title": "Погружение в TailwindCSS",
+      "description": "Узнай, как быстро стилизовать компоненты с TailwindCSS.",
+      "image": "/images/sample1.png",
+      "ratings": [5, 5, 4, 5, 5, 3, 2, 2, 3],
+      "authorId": 2,
+      "author": "Мария Смирнова",
+      "createdAt": "2025-05-21T15:30:00",
+      "commentsCount": 2
+    },
+    {
+      "id": 4,
+      "title": "qqq",
+      "description": "qqqqqqqqq",
+      "image": "/images/sample2.png",
+      "ratings": [3, 3, 4, 4, 3, 3],
+      "authorId": 1,
+      "author": "Аноним",
+      "createdAt": "2025-05-25T12:00:00",
+      "commentsCount": 0
+    },
+    {
+      "id": 5,
+      "title": "fbtg",
+      "description": "dhbth",
+      "image": "/images/sample3.png",
+      "ratings": [],
+      "authorId": 1,
+      "author": "Иван Иванов",
+      "createdAt": "2025-06-17T15:54:30.414Z",
+      "commentsCount": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": 3,
+      "postId": 2,
+      "authorId": 1,
+      "author": "Иван Иванов",
+      "content": "Теперь Tailwind стал моим любимым инструментом!",
+      "createdAt": "2025-05-22T16:00:00"
+    },
+    {
+      "id": 4,
+      "postId": 2,
+      "authorId": 4,
+      "author": "Анна Петрова",
+      "content": "Очень полезно для начинающих!",
+      "createdAt": "2025-05-22T16:45:00"
+    }
+  ]
+}
