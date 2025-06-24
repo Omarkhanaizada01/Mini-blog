@@ -7,7 +7,7 @@ export default function Users() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/users")
+      .get("https://mini-blog-us65.onrender.com")
       .then((res) => setUsers(res.data))
       .catch((err) =>
         console.error("Ошибка при загрузке пользователей:", err)
